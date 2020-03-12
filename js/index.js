@@ -44,7 +44,7 @@ for (i = 0; i < buttons.length; i++) {
                     matches++;
 
                     if (matches == 8) {
-                        alert ("Game over!");
+                        alert ("Well done!");
                     }
 
                  //No pair   
@@ -75,11 +75,8 @@ for (i = 0; i < buttons.length; i++) {
     });
 }
 
-document.getElementsByClassName('.play-again').addEventListener('click',  reset());
-
 function spreadNumbers() {
     for (i = 0; i < buttons.length; i++) {
         buttons[i].dataset.number = numbers[i];
     }
 }
-
