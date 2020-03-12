@@ -75,8 +75,14 @@ for (i = 0; i < buttons.length; i++) {
     });
 }
 
+document.getElementsByClassName('.play-again').addEventListener('click',  reset());
+
 function spreadNumbers() {
     for (i = 0; i < buttons.length; i++) {
         buttons[i].dataset.number = numbers[i];
     }
+}
+
+function reset() {
+    location.reload();
 }
