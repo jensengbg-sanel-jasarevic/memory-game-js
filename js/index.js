@@ -83,6 +83,3 @@ function spreadNumbers() {
     }
 }
 
-function reset() {
-    location.reload();
-}
