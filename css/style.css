@@ -24,7 +24,7 @@ button{
     font-size: 2.5rem;
 }
 
-.play-again{
+#play-again{
     height: 10vh;
     background-color: cyan;
 }
